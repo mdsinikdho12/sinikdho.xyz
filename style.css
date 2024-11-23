@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: #7b8a97;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+
+}
+.X{
+    font-family: "Signika Negative", sans-serif;
+
+}
+.i{
+    font-family: "Signika Negative", sans-serif;
+   
+}
+h1{
+    font-family: "Signika Negative", sans-serif;
+
+}
+
+/* nagigation part css */
+.container{
+    width: 80%;
+margin: 0 auto;
+/* display: flex; */
+/* justify-content: center;
+align-items: center; */
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.logo {
+    width:100px;
+    height: auto;
+    text-decoration: none;
+     margin-top:15px ;
+     font-size: 25px ;
+}
+.logo a{
+    color: black;
+    transition: all linear 0.2s;
+    font-family: "Oswald", sans-serif;
+
+
+}
+.logo a:hover{
+    color: #eeff00;
+    transition: all linear 0.2s;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    float: left;
+    padding: 20px 15px;
+}
+nav{
+       background-color: transparent;  
+}
+.sinikdho{
+    clear: both;
+}
+.menu ul li a {
+    padding: 13px;
+    font-size: 20px;
+    color: #fafafa;
+    transition: all linear 0.1s ;
+    position: relative;
+
+}
+.menu ul li a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #eeff00;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    opacity: 0;
+
+}
+.menu ul li a:hover::after{
+    opacity: 100%;
+    transition: all linear 0.1s;
+    
+}
+
+
+/* nagigation part css */
+
+/* banner css part stert  */
+.bnner{
+    background: url(banner1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overly{
+    padding: 100px 0;
+     background-color: rgba(0,0,0,0.6); 
+}
+.banner_containt h1 {
+    color: #D9EBFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.banner_containt h4 {
+    color: #0097abb4;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner_containt a{
+    padding: 10px  30px ;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all linear 0.1s ;
+}
+
+.banner_containt a:hover{
+    box-shadow: 7px 10px 82px 0px hsl(198, 100%, 39%);
+    background-color: aqua;
+    color: crimson;
+    transition: all linear 0.1s ;
+   
+}
+
+/* banner css part end  */
+
+/* about part css stert */
+.about_heading h4{
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px 0;
+    background-color: #78E2FF;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 30px;
+    transition: all linear 0.1s;
+}
+.about_heading h4:hover{
+    background-color: hsl(180, 100%, 19%);
+    box-shadow: 7px 10px 82px 0px hsl(157, 98%, 34%);
+    color: rgb(255, 255, 255);
+    transition: all linear 0.1s;
+}
+.About_photo{
+    width: 50%;
+    float: left;
+}
+.About_photo img{
+    width: 100%;
+    transition: all linear 0.1s;
+    border-radius: 33px;
+}
+.About_photo img:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 10px 82px 0px hsl(0, 70%, 34%);
+    transition: all linear 0.1s;
+    border-radius: 30px;
+    border: 2px solid #78E2FF;
+}
+.About_Content{
+    width: 50%;
+    float: left;
+}
+.About_Content h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color:rgb(0, 65, 178) ;
+}
+.About_Content p{
+    text-align: justify;
+    padding-left: 30px;
+    line-height: 26px;
+    font-size: 20px;
+    transition: all linear 0.1s ;
+}
+.About_Content P:hover{
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+    transition: all linear 0.1s ;
+
+}
+
+/* footer part css stert  */
+
+footer{
+    background-color: #20262c;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+   
+
+}
+/* footer part css end */
+
+/* contuct us part css stert  */
+
+.profile{
+    width: 200px;
+    height: 200px;
+    background-color: #20262c;
+    border-radius: 50%;
+    
+    
+    background-image: url(about.jpg);
+    background-position: center;
+    background-size: 150%;
+    margin-top: 70px;
+    /* border: 4px solid rgb(255, 242, 3); */
+    transition: all linear 0.3s;
+   margin-left: 430px;
+   position: relative;
+  
+    
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    
+}
+.profile:hover {
+    
+    box-shadow: 7px 10px 82px 0px hsl(52, 98%, 50%);
+    border: 5px solid #D9EBFF;
+    transition: all linear 0.3s;
+   
+}
+
+
+.Facebook{
+    width: 300px;
+    height: 90px;
+     display: flex;
+    margin: 20px;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.3s;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 7px 10px 82px 0px hsl(207, 100%, 37%);
+
+
+}
+.Youtube{
+    width: 300px;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 7px 10px 82px 0px hsl(207, 100%, 37%);
+
+
+
+  
+}
+.Whats_app{
+    width: 300px;
+    height: 90px;
+    margin-left: 400px;
+    background-color: transparent;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 7px 10px 82px 0px hsl(207, 100%, 37%);
+    
+
+}
+.Instagram{
+    width: 300px;
+    height: 90px;
+    background-color: transparent;
+    margin-left: 400px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 7px 10px 82px 0px hsl(207, 100%, 37%);
+}
+.Facebook_page{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    background-color: transparent;
+    margin-left: 400px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 7px 10px 82px 0px hsl(207, 100%, 37%);
+    transition: all linear 0.3s;
+
+
+}
+.contuct{
+    background-color: #20262c;
+}
+
+
+.u{
+    color: white;
+    font-size: 25px;
+
+}
+
+/* hover part stert  */
+
+.Facebook:hover{
+    border: 2px solid rgb(238, 255, 2);
+    transition: all linear 0.3s;
+    transform: scale(1.1);
+    box-shadow: 7px 10px 82px 0px hsl(66, 100%, 50%);
+
+}
+
+
+.Whats_app:hover{
+    border: 2px solid rgb(238, 255, 2);
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+    box-shadow: 7px 10px 82px 0px hsl(66, 100%, 50%);
+
+}
+.Youtube:hover{
+    border: 2px solid rgb(238, 255, 2);
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+    box-shadow: 7px 10px 82px 0px hsl(66, 100%, 50%);
+
+}
+.Instagram:hover{
+    border-radius: 10px;
+    border: 2px solid rgb(238, 255, 2);
+    box-shadow: 7px 10px 82px 0px hsl(66, 100%, 50%);
+    transition: all linear 0.3s;
+    transform: scale(1.1);
+
+}
+.Facebook_page:hover{
+    border-radius: 10px;
+    border: 2px solid rgb(238, 255, 2);
+    box-shadow: 7px 10px 82px 0px hsl(66, 100%, 50%);
+    transition: all linear 0.3s;
+    transform: scale(1.1);
+}
+    
+    /* background-image: conic-gradient(blue ,rgb(255, 0, 0), rgb(0, 191, 255), rgb(30, 0, 255),rgb(30, 0, 255), rgb(0, 191, 255), rgb(30, 0, 255));
+
+   
+   
+
+} */
+.Whats_app::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+.profile::after, .profile::before{
+    content:"" ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 4px;
+    border-radius: 50%;
+    
+    background-image: conic-gradient(blue ,rgb(255, 0, 0), rgb(0, 191, 255), rgb(30, 0, 255),rgb(30, 0, 255), rgb(0, 191, 255), rgb(30, 0, 255));
+
+   
+   
+
+}
+.profile::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+
+/* hover part end  */
